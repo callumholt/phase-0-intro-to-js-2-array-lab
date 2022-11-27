@@ -19,7 +19,6 @@ function destructivelyRemoveFirstCat() {
 }
 
 
-//INCOMPLETE
 
 function appendCat(name) {
        const appendCat = [...cats, "Broom"];
@@ -27,16 +26,13 @@ function appendCat(name) {
  }
 
 
-//INCOMPLETE
 
-//This function below should create a new array with "arnold" as index=0, then ...cats
 
 function prependCat(name) {
     const prependCat = ["Arnold",...cats];
     return prependCat;
 }
 
-//INCOMPLETE
 
 function removeLastCat() {
     const removeLastCat = cats.slice();
@@ -51,8 +47,6 @@ function removeFirstCat() {
     return removeFirstCat;
 }
 
-// function removeFirstCat() {
 
-// }
 
 
